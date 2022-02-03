@@ -30,9 +30,14 @@ document.addEventListener("keydown", function (e) {
 });
 
 // Create guide alert
+let i = 0;
 if (screen.width < 601) {
-  alert("Currently this website is only available for computers");
+  while (i < 1000)
+    alert("Currently this website is only available for computers");
+  i++;
 }
 if (screen.height < 701) {
-  alert("Currently this website is only available for computers");
+  while (i < 1000)
+    alert("Currently this website is only available for computers");
+  i++;
 }
