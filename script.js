@@ -28,3 +28,11 @@ document.addEventListener("keydown", function (e) {
     }
   }
 });
+
+// Create guide alert
+if (screen.width < 601) {
+  alert("Currently this website is only available for computers");
+}
+if (screen.height < 701) {
+  alert("Currently this website is only available for computers");
+}
